@@ -22,4 +22,10 @@ jdk version:java-8u66-jdk
         邮箱扩展：email-ext.hpi
     
     参考：http://blog.csdn.net/it_talk/article/details/50215089
- 
+    
+    
+### RUN 运行
+    $:docker run -d -p 8585:8585 jenkins:java
+    $:sh /run.sh
+    执行完 run.sh 插件已move 进 /root/.jenkins/plugins/ 目录
+    这时候需要重新启动容器
